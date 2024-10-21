@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraBooks</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
+      </ul>
+      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos lançamentos</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/Apachekafka.jpg"
+            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+        <div class="swiper-slide"><img src="img/Liderança.jpg"
+            alt="Livro sobre liderança em design design da alura books"></div>
+        <div class="swiper-slide"><img src="img/Javascript.jpg" alt="Livro sobre javascript assertivo da alura books">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Guia Front-end.jpg" alt="Livro Guia front end" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Portugol.jpg" alt="Livro sobre portugol" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Acessibilidade.jpg" alt="Livro sobre acessibilidade" />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descrição__titulo-livro">BIOGRAFIA Raphael Veiga</h2>
+          <p class="descrição__texto">
+            Maior artilheiro do Palmeiras neste século (96 gols, seguido por Dudu, com 88), é ainda o maior artilheiro do Allianz Parque com 50 gols e está no top 20 de maiores artilheiros da história do Palmeiras. Veiga é também o maior artilheiro do Palmeiras no Paulista (20 gols, ao lado de Dudu), o segundo maior artilheiro do clube na história da Libertadores (18 gols), atrás apenas de Rony (22), e o 2º na era dos pontos corridos do Brasileiro (41,  atrás de Dudu, com 53). Está também no Top 10 do ranking de maiores campeões pelo clube, ao lado de Luan, Zé Rafael, Rony e o ex-volante Dudu (Olegário Tolói de Oliveira), todos com 10 títulos na 10ª posição.
+
+Além disso, Raphael Veiga perdeu apenas sete pênaltis pelo Palmeiras, seja no tempo regulamentar ou em disputas eliminatórias – foram 46 oportunidades, sendo 40 durante os 90 minutos de jogo e seis em decisões por penalidades máximas. Por conta disso, é o jogador que mais fez gols de pênalti no tempo regulamentar pelo Verdão neste século: 35 no total. Mas o maior prêmio, sem dúvida, foi ter realizado o desejo do avô palestrino pouco antes de falecer:
+
+“Meu avô era muito palmeirense. Fanático, ia a todos os jogos. Quando ele estava na cama da UTI e eu estava saindo do quarto, ele me pediu para voltar e disse: ‘Vou te pedir uma coisa: se você tiver oportunidade, jogue no Palmeiras’. Eu o cumprimentei e não o vi mais”, contou, emocionado, em sua apresentação na Academia de Futebol. “Desde pequeno, convivi neste ambiente verde e branco. E para o senhor, vô, eu te dou esse título! Sem o senhor, eu não seria palmeirense! Valeu a pena cada suor, cada dia nublado, para cumprir minha promessa. Espero, do fundo do meu coração, que aí do céu o senhor esteja muito feliz! Eu te amo!”, escreveu, após a tão sonhada reconquista da América pela temporada 2020.
+
+Raphael Veiga foi revelado pelo Coritiba, onde trabalhou e aprendeu muito com o ídolo palestrino Alex – lá, inclusive, era comparado ao ex-camisa 10 justamente por ser um talentoso meia armador canhoto. Mal poderia imaginar que depois de 21 anos ele repetiria o feito do amigo ao conquistar a Libertadores pelo Verdão, também como titular da equipe na grande decisão.
+
+Contratado pelo Maior Campeão do Brasil em 2017, o torcedor do Palmeiras na infância foi emprestado ao Athletico-PR em 2018 para ganhar experiência e, após um 2019 de readaptação, teve uma temporada 2020 brilhante pelo seu clube de coração: um dos três palmeirenses a fazer gols em todas as competições regulares do ano, assim como Luiz Adriano e Gustavo Gómez, foi vice-artilheiro do time no geral com 18 gols (ao lado de Willian e atrás apenas de Luiz Adriano, com 20), artilheiro do time no Brasileirão (11 gols, seguido por Luiz Adriano, com 10) e artilheiro (quatro gols) e garçom (duas assistências, uma em cada partida das finais) na Copa do Brasil – competição na qual foi o único presente em todas as partidas e da qual foi eleito o melhor jogador pela CBF.
+
+Em 2021, Veiga teve uma temporada inesquecível, fazendo muitos gols decisivos e entrando de vez para a história do clube ao conquistar a Libertadores pela segunda vez com o Verdão. Na grande final contra o Flamengo, no Uruguai, o camisa 23 marcou o primeiro gol da vitória por 2 a 1 logo aos cinco minutos do primeiro tempo. Desgastado fisicamente, acabou deixando a partida antes do início da prorrogação para a entrada de Deyverson, justamente o autor do gol do título palmeirense.
+
+Individualmente, o meio-campista também levantou troféus em 2021. Levou a Bola de Prata, foi eleito o melhor meia do Campeonato Brasileiro pela CBF (Confederação Brasileira de Futebol) e fez parte da seleção da Libertadores eleita pela CONMEBOL.
+
+Já em 2022, Veiga atingiu a sua melhor média de gols marcados desde a sua chegada ao Palmeiras: 0,43 (21 gols em 48 partidas), superando 2021 e 2020, quando o camisa 23 chegou à marca de 0,3 tento por duelo (21 gols em 67 partidas e 15 gols em 42 partidas, respectivamente). Além disso, foi o único jogador do elenco a balançar as redes em todas as competições disputadas: Paulista (7), Copa do Brasil (2), Libertadores (6), Brasileiro (3), Recopa (1), Mundial de 2021 (2).
+          </p>
+        </div>
+        <img src="img/Angular.png" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+       
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">Autor do Mês</h3>
+          <h2 class="descrição__titulo-livro">rafinha do bar
+          </h2>
+          <p class="descrição__texto">Analista de sistemas e escritor, Rafinha do bar é especialista em Front-End.
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/Escritora.png" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Android</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Marketing Digital</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Agile</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Startups</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">HTML & CSS</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Python</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">OO</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Java</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">
+      Atualizações de e-books, novos livros, promoções e outros.
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Alura</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
